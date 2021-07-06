@@ -1,5 +1,5 @@
-BINARY?=FileConverter
-PROJECT?=FileConverter
+BINARY?=MarkdownFileCreator
+PROJECT?=MarkdownFileCreator
 BUILD_FOLDER?=.build
 PREFIX?=/usr/local
 RELEASE_BINARY_FOLDER?=$(BUILD_FOLDER)/release/$(PROJECT)
