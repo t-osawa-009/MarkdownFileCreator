@@ -30,7 +30,7 @@ let main = command(
             let dictionary = try JSONSerialization.jsonObject(with: data) as? [[String: Any]] ?? []
             let newText = MarkdownRawCreater(map: dictionary, keys: keyArray).create()
             print(newText)
-            try MarkdownFileCreator(outputPath: output_path ?? UUID().uuidString + ".md", results: newText).write()
+            try MarkdownFileCreator(outputPath: output_path ?? file.name + ".md", results: newText).write()
         } catch {
             Logger.log(error.localizedDescription)
         }
@@ -47,7 +47,7 @@ let main = command(
             }
             let newText = MarkdownRawCreater(map: dictionary, keys: keyArray).create()
             print(newText)
-            try MarkdownFileCreator(outputPath: output_path ?? UUID().uuidString + ".md", results: newText).write()
+            try MarkdownFileCreator(outputPath: output_path ?? file.name + ".md", results: newText).write()
         } catch {
             Logger.log(error.localizedDescription)
         }
