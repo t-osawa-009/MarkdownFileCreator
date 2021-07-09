@@ -7,3 +7,13 @@
   name: jiro
   gender: male
   params:
+- id: 3
+  name: saburo
+  gender: male
+  params:
+    country: japan
+    city: Tokyo
+    hobby:
+    - tv game
+    - chess
+    age: 25
