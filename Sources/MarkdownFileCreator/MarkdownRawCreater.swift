@@ -42,7 +42,7 @@ final class MarkdownRawCreater {
         }
         
         do {
-            let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
+            let data = try JSONSerialization.data(withJSONObject: json, options: [.prettyPrinted, .sortedKeys])
             if let string = String(data: data, encoding: String.Encoding.utf8) {
                 return string.replacingOccurrences(of: "\n", with: "<br>")
             }

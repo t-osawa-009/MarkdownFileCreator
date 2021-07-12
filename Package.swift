@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "MarkdownFileCreator",
+    platforms: [
+        .macOS(.v10_13)
+    ],
     products: [
         .executable(name: "MarkdownFileCreator", targets: ["MarkdownFileCreator"]),
     ],

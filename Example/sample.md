@@ -2,4 +2,4 @@
 |---|---|---|---|
 | 1 | taro | male | <null> |
 | 2 | jiro | male | <null> |
-| 3 | saburo | male | {<br>  "hobby" : [<br>    "tv game",<br>    "chess"<br>  ],<br>  "age" : 25,<br>  "country" : "japan",<br>  "city" : "Tokyo"<br>} |
+| 3 | saburo | male | {<br>  "age" : 25,<br>  "city" : "Tokyo",<br>  "country" : "japan",<br>  "hobby" : [<br>    "tv game",<br>    "chess"<br>  ]<br>} |
