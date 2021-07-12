@@ -44,7 +44,7 @@ final class MarkdownRawCreater {
         do {
             let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
             if let string = String(data: data, encoding: String.Encoding.utf8) {
-                return string.replacingOccurrences(of: "\n", with: "")
+                return string.replacingOccurrences(of: "\n", with: "<br>")
             }
         } catch {
             print(error)

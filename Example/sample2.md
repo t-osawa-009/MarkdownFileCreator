@@ -1,3 +1,3 @@
 |widget.debug  |widget.image  |widget.text
 |---|---|---|
-| on | {  "src" : "Images\/Sun.png",  "hOffset" : 250,  "alignment" : "center",  "name" : "sun1",  "vOffset" : 250} | {  "alignment" : "center",  "size" : 36,  "style" : "bold",  "data" : "Click Here",  "onMouseUp" : "sun1.opacity = (sun1.opacity \/ 100) * 90;",  "hOffset" : 250,  "name" : "text1",  "vOffset" : 100} |
+| on | {<br>  "hOffset" : 250,<br>  "src" : "Images\/Sun.png",<br>  "alignment" : "center",<br>  "name" : "sun1",<br>  "vOffset" : 250<br>} | {<br>  "hOffset" : 250,<br>  "size" : 36,<br>  "style" : "bold",<br>  "data" : "Click Here",<br>  "vOffset" : 100,<br>  "name" : "text1",<br>  "alignment" : "center",<br>  "onMouseUp" : "sun1.opacity = (sun1.opacity \/ 100) * 90;"<br>} |
